@@ -25,7 +25,7 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 let map = L.map('mapid', {
 	center: [40.7, -94.5],
 	zoom: 3,
-	layers: [streets]
+	layers: [satelliteStreets]
 });
 
 // Create a base layer that holds all three maps.
